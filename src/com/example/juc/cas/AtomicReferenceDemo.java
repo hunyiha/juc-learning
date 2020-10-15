@@ -1,6 +1,7 @@
 package com.example.juc.cas;
 
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.concurrent.atomic.AtomicStampedReference;
 
 /**
  *  JUC里面提供了AtomicInteger等,但是我要使用原子用户,原子订单等等原子类怎么办呢?
